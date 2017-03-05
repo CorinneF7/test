@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------
+-- Objet : Script de creation des vues du schema SCONF
+--------------------------------------------------------------------------
+-- Affaire : Xeamless            Produit : Xeamless        Version : 01.00
+--------------------------------------------------------------------------
+-- Entree : Aucun
+--
+--------------------------------------------------------------------------
+-- Historique des modifications :
+--
+-- Indice | Date   | Auteur         |Modification
+----------+--------+----------------+---------------------------------------
+--    1   |13/02/14| P. Da Costa    | Création
+--    2   |26/08/16| C. Fontaine    | Ajout de la vue V_ICL_SCF_CONTACT
+--------------------------------------------------------------------------
+
+
+
+-----------------------------------------
+-- Vues pour le moteur ICL
+
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_serviceprovider.sql
+
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_line.sql
+
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_agent.sql
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_equipment.sql
+
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_tag.sql
+
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_location.sql
+
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_sp_parameter.sql
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_sp_ref_parameter.sql
+
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_tag_location.sql
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_location_line.sql
+
+@%DIR_SCRIPT%\ps\&SCHEMA\v_icl_scf_contact.SQL
+
+-----------------------------------------
+-- Vues pour les WebServices
+
+/*==============================================================*/
+
